@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KJS Holidays</title>
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<header>
+    <div id="menu-bar" class="fa-solid fa-bars"></div>
+    <a href="#" class="logo"><span>KJS</span>Holidays</a>
+    <nav class="navbar">
+       <a href="#home">home</a>
+       <a href="#book">book</a>
+       <a href="#packages">packages</a>
+       <a href="#services">services</a>
+       <a href="#gallery">gallery</a>
+       <a href="#review">review</a>
+       <a href="#contact">contact</a>
+    </nav>
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here....">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+</header>
+<div class="login-form-container">
+    <i class="fa-solid fa-xmark" id="form-close"></i>
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">regester now</a></p>
+    </form>
+</div>
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>discover new places with us, adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+    <div class="controls">
+        <span class="vid-btn active" data-src="home1.1.mp4"></span>
+        <span class="vid-btn" data-src="home2.mp4"></span>
+        <span class="vid-btn" data-src="home3.mp4"></span>
+        <span class="vid-btn" data-src="home4.mp4"></span>
+        <span class="vid-btn" data-src="home5.mp4"></span>
+    </div>
+    <div class="video-container">
+        <video src="home1.1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+</section>
+
+<section class="book" id="book">
+    <h1 class="heading">
+    <span>b</span>
+    <span>o</span>
+    <span>o</span>
+    <span>k</span>
+    <span class="space"></span>
+    <span>n</span>
+    <span>o</span>
+    <span>w</span>
+</h1>
+<div class="row">
+    <div class="image">
+        <img src="image1.jpg" alt="">
+    </div>
+    <form action="">
+        <div class="inputBox">
+            <h3>where to</h3>
+            <input type="text" placeholder="place name">
+        </div>
+        <div class="inputBox">
+            <h3>how many</h3>
+            <input type="number" placeholder="number of guests">
+        </div>
+        <div class="inputBox">
+            <h3>arrivals</h3>
+            <input type="date">
+        </div>
+        <div class="inputBox">
+            <h3>leaving</h3>
+            <input type="date">
+        </div>
+        <input type="submit" class="btn" value="book now">
+    </form>
+</div>
+</section>
+
+<!-- packages section starts -->
+
+<section class="packages" id="packages">
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+        </h1>
+        <div class="box-container">
+        <div class="box">
+            <img src="p1.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                <p>The capital of Maharashtra state in India, and is the country's financial and commercial center.</p>
+                <div class="starts">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="price">5499/-  <span>6499/-</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="p2.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> kodaikanal </h3>
+                <p>Kodaikanal is a popular hill station in Tamil Nadu, India, known for its scenic beauty, cool weather, and lakes</p>
+                <div class="starts">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="price">2499/-  <span>3499/-</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="p3.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> munnar </h3>
+                <p>Munnar is a hill station in the Idukki district of Kerala,known for its natural beauty,tea plantations</p>
+                <div class="starts">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="price">3499/-  <span>4499/-</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="p4.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> yercaud </h3>
+                <p>Yercaud is a hill station near Salem, in the Servarayan range of hills (anglicized as Shevaroys) in the Eastern Ghats</p>
+                <div class="starts">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="price">2999/-  <span>3999/-</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="p5.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> paries </h3>
+                <p>Paris is in the north-central part of France, on the Seine River, and in the Île-de-France region.</p>
+                <div class="starts">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="price">14,999/-  <span>16,000/-</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="p6.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> hawaii </h3>
+                <p>It is believed that the state's name was formed from this word. According to legend, a man named Hawaii ilands...</p>
+                <div class="starts">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="price">35,999/-  <span>50,000/-</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- packages section ends -->
+
+<!-- service section starts-->
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fa-solid fa-hotel"></i>
+                <h3>offordable hotels</h3>
+                <p>Budget hotels are considered as 1 star hotel because they provide lodging at cheaper price varies from 500-2000 
+                    per room per night</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>Budget hotels are considered as 1 star hotel because they provide lodging at cheaper price varies from 500-2000 
+                    per room per night</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-bullhorn"></i>
+                <h3>safty guide</h3>
+                <p>Budget hotels are considered as 1 star hotel because they provide lodging at cheaper price varies from 500-2000 
+                    per room per night</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-earth-asia"></i>
+                <h3>around world</h3>
+                <p>Budget hotels are considered as 1 star hotel because they provide lodging at cheaper price varies from 500-2000 
+                    per room per night</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Budget hotels are considered as 1 star hotel because they provide lodging at cheaper price varies from 500-2000 
+                    per room per night</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-person-hiking"></i>
+                <h3>adventures</h3>
+                <p>Budget hotels are considered as 1 star hotel because they provide lodging at cheaper price varies from 500-2000 
+                    per room per night</p>
+            </div>
+        </div>
+<!-- service section ends-->
+
+<!-- gallery section starts-->
+
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="g1.webp" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>I have a wonderful place that made me happy a lot of times, years ago.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="g2.webp" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>I have a wonderful place that made me happy a lot of times, years ago.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="g3.webp" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>I have a wonderful place that made me happy a lot of times, years ago.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="g4.webp" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>I have a wonderful place that made me happy a lot of times, years ago.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="g5.webp" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>I have a wonderful place that made me happy a lot of times, years ago.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="g6.webp" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>I have a wonderful place that made me happy a lot of times, years ago.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="g7.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>I have a wonderful place that made me happy a lot of times, years ago.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="g8.webp" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>I have a wonderful place that made me happy a lot of times, years ago.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="g9.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>I have a wonderful place that made me happy a lot of times, years ago.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+        </div>
+            </section>
+<!-- gallery section ends-->
+<!-- review section starts-->
+
+<section class="review" id="review">
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+        </h1>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="r1.jpg" alt="">
+                        <h3>kirthish</h3>
+                        <p>Provided hotels were good at most of the places. Cab was not clean and we requested multiple times with 
+                            the agent but response from Navicrow  Also there was an urgency during trip and i called him 4-5 times 
+                            and also messaged him to call me back but no response from his side and cab was very dirty till 5 days. </p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="r2.jpg" alt="">
+                        <h3>kirthish</h3>
+                        <p>Provided hotels were good at most of the places. Cab was not clean and we requested multiple times with 
+                            the agent but response from Navicrow  Also there was an urgency during trip and i called him 4-5 times 
+                            and also messaged him to call me back but no response from his side and cab was very dirty till 5 days. </p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="r1.jpg" alt="">
+                        <h3>kirthish</h3>
+                        <p>Provided hotels were good at most of the places. Cab was not clean and we requested multiple times with 
+                            the agent but response from Navicrow  Also there was an urgency during trip and i called him 4-5 times 
+                            and also messaged him to call me back but no response from his side and cab was very dirty till 5 days. </p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="r2.jpg" alt="">
+                        <h3>kirthish</h3>
+                        <p>Provided hotels were good at most of the places. Cab was not clean and we requested multiple times with 
+                            the agent but response from Navicrow  Also there was an urgency during trip and i called him 4-5 times 
+                            and also messaged him to call me back but no response from his side and cab was very dirty till 5 days. </p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- review section ends-->
+
+<!-- contact section starts-->
+
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+        </h1>
+        <div class="row">
+            <div class="image">
+            <img src="c1.jpg" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+        </div>
+</section>
+<!-- contact section ends-->
+
+<!-- footer section-->
+ <section class="footer">
+    <div class="box-container">
+        <div class="box">
+        <h3>about us</h3>
+        <p>Budget hotels are considered as 1 star hotel because they provide lodging at cheaper price varies from 500-2000 
+            per room per night</p>
+    </div>
+    <div class="box">
+        <h3>branch location</h3>
+        <a href="#">cuddalore</a>
+        <a href="#">puducherry</a>
+        <a href="#">perungalathur</a>
+        <a href="#">coimbathor</a>
+    </div>
+    <div class="box">
+        <h3>follow us</h3>
+        <a href="#">facebook</a>
+        <a href="#">instagram</a>
+        <a href="#">twitter</a>
+        <a href="#">linkedin</a>
+    </div>
+</div>
+<h1 class="credit">created by <span>mr. kirthish</span> | all rights reversed!</h1>
+ </section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
